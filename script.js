@@ -48,6 +48,13 @@ let beats = {
     button: new Button('#FFFFFF', l),
   },
 };
+let stop = {
+  //   stop
+  stop: {
+    beat: new Beat(''),
+    button: new Button('#00fffe', a),
+  },
+};
 
 /**
  * Function to play the beat upon a press of key
@@ -61,6 +68,15 @@ triggerBeat = (event) => {
     keyPress.beat.play();
     keyPress.button.select();
   }
+  // if (keyPressed in stop) {
+  //   console.log(stop);
+  //   for (beat in beats) {
+  //     console.log(beat);
+  //     let keyPress = stop[event];
+  //     keyPress.beat.stop();
+  //     keyPress.button.select();
+  //   }
+  // }
 };
 
 /**

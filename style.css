@@ -62,11 +62,11 @@ body {
     
 }
 
+
 .beat .button { 
     width: 100%;
     height: 80%;
     margin: 0 5px;
-    
     border-radius: 10px;
     border: 5px solid aqua;
     color: white;
@@ -77,15 +77,19 @@ body {
     font-size: 2em;
     transition: all 0.2s;
     cursor: pointer;
+    background-image: url(http://3.bp.blogspot.com/-iBTZ2quPfaU/T4cV1iebVVI/AAAAAAAABl0/FcZQeZd6AHA/s1600/music_dark_djs_club_turntable_dj_cdj_cd_cdj1000_pioneer_desktop_1920x1200_wallpaper-12635.jpg) ;
     
 }
 .button:hover{
     /* background-color: blue; */
     transform: scale(1.1);
     transition: all 0.5s ease;
-    
-
 }
+/* .button{
+    background-color: black;
+    z-index: 100;
+} */
+
 @media (max-width: 530px){
     .beatbox {
         width: 80vw;
